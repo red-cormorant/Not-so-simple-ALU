@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ac/tema2/alu/alu_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alu_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/alu_test/dut/alu_i/rst_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/valid_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/cmd_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cmd_out</obj_property>
+      <obj_property name="ObjectShortName">cmd_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/mod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mod[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mod[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">payload_buffer[63:0,9:0]</obj_property>
+      <obj_property name="ObjectShortName">payload_buffer[63:0,9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">payload_buffer[63:0,9:0]</obj_property>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[63]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[63,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[63,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[62]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[62,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[62,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[61]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[61,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[61,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[60]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[60,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[60,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[59]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[59,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[59,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[58]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[58,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[58,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[57]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[57,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[57,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[56]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[56,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[56,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[55]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[55,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[55,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[54]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[54,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[54,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[53]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[53,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[53,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[52]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[52,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[52,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[51]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[51,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[51,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[50]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[50,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[50,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[49]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[49,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[49,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[48]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[48,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[48,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[47]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[47,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[47,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[46]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[46,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[46,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[45]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[45,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[45,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[44]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[44,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[44,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[43]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[43,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[43,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[42]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[42,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[42,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[41]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[41,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[41,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[40]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[40,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[40,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[39]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[39,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[39,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[38]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[38,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[38,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[37]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[37,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[37,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[36]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[36,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[36,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[35]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[35,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[35,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[34]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[34,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[34,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[33]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[33,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[33,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[32]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[32,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[32,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[31,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[30,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[29,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[28,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[27,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[26,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[25,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[24,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[23,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[22,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[21,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[20,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[19,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[18,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[17,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[16,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[15,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[14,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[13,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[12,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[11,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[10,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[9,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[8,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[7,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[6,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[5,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[4,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[3,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[2,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[1,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/payload_buffer[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,9:0]</obj_property>
+         <obj_property name="ObjectShortName">payload_buffer[0,9:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/operands" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">operands[63:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">operands[63:0,7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[63]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[63,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[63,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[62]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[62,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[62,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[61]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[61,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[61,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[60]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[60,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[60,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[59]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[59,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[59,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[58]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[58,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[58,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[57]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[57,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[57,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[56]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[56,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[56,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[55]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[55,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[55,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[54]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[54,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[54,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[53]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[53,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[53,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[52]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[52,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[52,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[51]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[51,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[51,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[50]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[50,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[50,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[49]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[49,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[49,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[48]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[48,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[48,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[47]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[47,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[47,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[46]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[46,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[46,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[45]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[45,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[45,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[44]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[44,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[44,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[43]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[43,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[43,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[42]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[42,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[42,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[41]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[41,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[41,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[40]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[40,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[40,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[39]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[39,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[39,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[38]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[38,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[38,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[37]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[37,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[37,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[36]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[36,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[36,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[35]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[35,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[35,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[34]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[34,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[34,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[33]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[33,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[33,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[32]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[32,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[32,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[31,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[30,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[29,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[28,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[27,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[26,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[25,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[24,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[23,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[22,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[21,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[20,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[19,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[18,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[17,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[16,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[15,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[14,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[13,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[12,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[11,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[10,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[9,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[8,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[7,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[6,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[5,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[4,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[3,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[2,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[1,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/dut/alu_i/operands[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">operands[0,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/mod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mod[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mod[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/header" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">header[15:0]</obj_property>
+      <obj_property name="ObjectShortName">header[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/sum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/sum_next" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum_next[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_next[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[15:0]</obj_property>
+      <obj_property name="ObjectShortName">state[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/state_next" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state_next[15:0]</obj_property>
+      <obj_property name="ObjectShortName">state_next[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/data_in" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      <obj_property name="label">data_in[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/valid_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/counter_decod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter_decod[5:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_decod[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/counter_decod_next" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter_decod_next[5:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_decod_next[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/cmd_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cmd_in</obj_property>
+      <obj_property name="ObjectShortName">cmd_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[5:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/counter_next" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter_next[5:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_next[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/nof_operands_header" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nof_operands_header[5:0]</obj_property>
+      <obj_property name="ObjectShortName">nof_operands_header[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/alu_i/boolean_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">boolean_error</obj_property>
+      <obj_property name="ObjectShortName">boolean_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/memory/amm_waitrequest" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">amm_waitrequest</obj_property>
+      <obj_property name="ObjectShortName">amm_waitrequest</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/memory/amm_readdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">amm_readdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">amm_readdata[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/memory/amm_response" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">amm_response[1:0]</obj_property>
+      <obj_property name="ObjectShortName">amm_response[1:0]</obj_property>
+   </wvobject>
+</wave_config>

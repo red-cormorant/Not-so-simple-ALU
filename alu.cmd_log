@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/ac/tema2/alu/alu.v -lang verilog -prj alu -o alu.spl -module alu -template D:/Xilinx/14.6/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e alu.spl D:/ac/tema2/alu/alu.sym 

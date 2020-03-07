@@ -1,0 +1,1 @@
+-10.00: failed to synthesize, check synthesis log for errors

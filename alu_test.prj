@@ -1,0 +1,4 @@
+verilog work "alu_regfile.v"
+verilog work "alu.v"
+verilog work "alu_top.v"
+verilog work "alu_test.v"

@@ -1,0 +1,19 @@
+[Inputs]
+valid_in
+cmd_in
+amm_waitrequest
+clk
+rst_n
+=data_in[15:0]=
+=amm_readdata[7:0]=
+=amm_response[1:0]=
+[Outputs]
+valid_out
+cmd_out
+amm_read
+=data_out[15:0]=
+=amm_address[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel alu
+

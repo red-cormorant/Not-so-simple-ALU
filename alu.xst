@@ -1,0 +1,5 @@
+set -tmpdir "D:/ac/tema2/alu/xst/projnav.tmp"
+set -xsthdpdir "D:/ac/tema2/alu/xst"
+elaborate
+-ifn alu.prj
+-ifmt mixed

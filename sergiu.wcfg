@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ac/tema2/alu/alu_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alu_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/alu_test/rst_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/valid_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/cmd_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cmd_in</obj_property>
+      <obj_property name="ObjectShortName">cmd_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/valid_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/cmd_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cmd_out</obj_property>
+      <obj_property name="ObjectShortName">cmd_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/memory/amm_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">amm_read</obj_property>
+      <obj_property name="ObjectShortName">amm_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/memory/amm_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">amm_address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">amm_address[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/memory/amm_readdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">amm_readdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">amm_readdata[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/memory/amm_waitrequest" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">amm_waitrequest</obj_property>
+      <obj_property name="ObjectShortName">amm_waitrequest</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/dut/memory/amm_response" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">amm_response[1:0]</obj_property>
+      <obj_property name="ObjectShortName">amm_response[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
