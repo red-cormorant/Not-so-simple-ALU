@@ -1,0 +1,7 @@
+verilog work "..\..\alu.v"
+verilog work "..\..\alu_regfile.v"
+verilog work "..\..\alu_test.v"
+verilog work "..\..\alu_top.v"
+verilog work "..\..\alu_w.v"
+verilog work "..\..\copie.v"
+verilog work "..\..\copie_2.v"

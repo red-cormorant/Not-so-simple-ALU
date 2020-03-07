@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="38" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 26 </arg>Macro &apos;<arg fmt="%s" index="2">ADD</arg>&apos; redefined
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="38" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 27 </arg>Macro &apos;<arg fmt="%s" index="2">AND</arg>&apos; redefined
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="38" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 28 </arg>Macro &apos;<arg fmt="%s" index="2">OR</arg>&apos; redefined
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="38" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 29 </arg>Macro &apos;<arg fmt="%s" index="2">XOR</arg>&apos; redefined
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="38" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 30 </arg>Macro &apos;<arg fmt="%s" index="2">NOT</arg>&apos; redefined
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="38" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 31 </arg>Macro &apos;<arg fmt="%s" index="2">INC</arg>&apos; redefined
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="38" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 32 </arg>Macro &apos;<arg fmt="%s" index="2">DEC</arg>&apos; redefined
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="38" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 33 </arg>Macro &apos;<arg fmt="%s" index="2">NEG</arg>&apos; redefined
+</msg>
+
+<msg type="error" file="HDLCompilers" num="26" delta="old" >&quot;<arg fmt="%s" index="1">alu_test.v</arg>&quot; line <arg fmt="%d" index="2">123</arg> <arg fmt="%s" index="3">unexpected token: &apos;integer&apos;</arg>
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 125 </arg>&apos;<arg fmt="%s" index="2">index</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 130 </arg>&apos;<arg fmt="%s" index="2">index</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 137 </arg>&apos;<arg fmt="%s" index="2">index</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="26" delta="old" >&quot;<arg fmt="%s" index="1">alu_test.v</arg>&quot; line <arg fmt="%d" index="2">146</arg> <arg fmt="%s" index="3">unexpected token: &apos;integer&apos;</arg>
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 154 </arg>&apos;<arg fmt="%s" index="2">index</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 155 </arg>&apos;<arg fmt="%s" index="2">index</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 161 </arg>&apos;<arg fmt="%s" index="2">index</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 164 </arg>&apos;<arg fmt="%s" index="2">index</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="26" delta="old" >&quot;<arg fmt="%s" index="1">alu_test.v</arg>&quot; line <arg fmt="%d" index="2">169</arg> <arg fmt="%s" index="3">expecting &apos;input&apos;, found &apos;integer&apos;</arg>
+</msg>
+
+<msg type="error" file="HDLCompilers" num="26" delta="old" >&quot;<arg fmt="%s" index="1">alu_test.v</arg>&quot; line <arg fmt="%d" index="2">207</arg> <arg fmt="%s" index="3">expecting &apos;input&apos;, found &apos;integer&apos;</arg>
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 209 </arg>&apos;<arg fmt="%s" index="2">index</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 212 </arg>&apos;<arg fmt="%s" index="2">index</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;alu_test.v&quot; line 213 </arg>&apos;<arg fmt="%s" index="2">index</arg>&apos; has not been declared
+</msg>
+
+</messages>
+
